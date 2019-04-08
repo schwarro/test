@@ -25,20 +25,15 @@
     <!-- Form -->
     <div class="container">
       <div class="jumbotron">
-        <h3 class="text-center">Balance</h3>
-        <form id="searchForm">
-          <input type="text" class="form-control" id="searchText" placeholder="Enter Your Address...">
+        <h3 class="text-center">Payment</h3>
+        <form id="paymentForm">
+          <input type="text" class="form-control" id="address" placeholder="Enter Your Address...">
+          <input type="text" class="form-control" id="destination" placeholder="Enter Your Destination...">
+          <input type="number" class="form-control" id="value" placeholder="Enter Your Value...">
         </form>
       </div>
     </div>
-    <!-- End of Form  -->
-
-    <!-- Output -->
-    <div class="container">
-      <div id="balance" class="row">
-      </div>
-    </div>
-    <!-- End of Output -->
+    <!-- End of Form -->
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
